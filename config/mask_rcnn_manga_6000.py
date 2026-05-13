@@ -6,7 +6,7 @@ EPOCHS = 48
 # ========================
 # DATASET
 # ========================
-data_root = r"C:\Users\lucas\Documents\GitHub\manga-segment-train\manga_panels_yolo_merged"
+data_root = r"./manga_panels_yolo_merged"
 
 metainfo = {"classes": ("panel",), "palette": [(220, 20, 60)]}
 
