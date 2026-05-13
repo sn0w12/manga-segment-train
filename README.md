@@ -44,3 +44,13 @@ pip install -r requirements.txt
 ```
 mim train mmdet .\config\mask_rcnn_manga.py
 ```
+
+## RTX PRO 6000
+
+```
+unset TMUX
+tmux new -s training -d
+tmux attach -t training
+
+mim train mmdet ./config/mask_rcnn_manga_6000.py
+```
