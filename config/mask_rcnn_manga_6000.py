@@ -13,7 +13,7 @@ metainfo = {"classes": ("panel",), "palette": [(220, 20, 60)]}
 fp16 = dict(loss_scale=512.0)
 
 train_dataloader = dict(
-    batch_size=12,
+    batch_size=10,
     num_workers=4,
     dataset=dict(
         type="CocoDataset",
