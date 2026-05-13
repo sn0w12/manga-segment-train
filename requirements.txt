@@ -1,0 +1,7 @@
+# Core runtime
+numpy<2
+opencv-python
+
+# Training / visualization helpers used by the config
+albumentations
+wandb
