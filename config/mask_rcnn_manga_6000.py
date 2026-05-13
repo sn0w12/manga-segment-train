@@ -164,7 +164,7 @@ default_hooks = dict(
         interval=20000,
         save_best="coco/segm_mAP",
         rule="greater",
-        save_last=False,
+        save_last=True,
     ),
     logger=dict(interval=50),
 )
