@@ -145,7 +145,7 @@ optim_wrapper = dict(
 
 train_cfg = dict(type="EpochBasedTrainLoop", max_epochs=EPOCHS, val_interval=2)
 
-WARMUP_STEPS = 500
+WARMUP_STEPS = 1500
 
 # Define milestones as fractions of EPOCHS
 MILESTONE_1 = int(EPOCHS * 0.6)
