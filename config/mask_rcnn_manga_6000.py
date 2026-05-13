@@ -13,8 +13,8 @@ metainfo = {"classes": ("panel",), "palette": [(220, 20, 60)]}
 fp16 = dict(loss_scale=512.0)
 
 train_dataloader = dict(
-    batch_size=24,
-    num_workers=8,
+    batch_size=16,
+    num_workers=4,
     dataset=dict(
         type="CocoDataset",
         data_root=data_root,
@@ -161,7 +161,7 @@ param_scheduler = [
 # ========================
 default_hooks = dict(
     checkpoint=dict(
-        interval=10000,
+        interval=20000,
         save_best="coco/segm_mAP",
         rule="greater",
         save_last=False,
