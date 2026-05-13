@@ -1,6 +1,6 @@
 _base_ = ["mmdet::mask_rcnn/mask-rcnn_r101_fpn_1x_coco.py"]
 
-NAME = "manga_maskrcnn_v16"
+NAME = "manga_maskrcnn_v17"
 EPOCHS = 48
 
 # ========================
